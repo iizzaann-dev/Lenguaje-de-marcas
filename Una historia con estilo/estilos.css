@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(192, 240, 240);
+}
+
+.div1{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(4, 67, 53);
+    border: 2px solid seagreen;
+    width: 500px;
+    height: 230px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.indice{
+    color: rgb(4, 67, 53);
+    border: 2px solid rgb(139, 46, 120);
+}
+
+.contenido_indice{
+    font-size: 30px;
+    margin-top: auto;
+    border: 2px solid rgb(11, 239, 255);
+}
+
+.descripcion_estilos{
+    margin-top: -248px;
+    margin-left: 680px;
+    border: 2px solid rgb(40, 49, 44);
+}
+
+.introduccion{
+    margin-top: 170px;
+    border: 2px solid rgb(201, 192, 22);
+}
+
+.nudo{
+    border: 2px solid rgb(26, 217, 52);
+}
+
+.desenlace{
+    border: 2px solid rgb(39, 9, 138);
+}
+
