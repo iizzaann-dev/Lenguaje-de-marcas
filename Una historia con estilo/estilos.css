@@ -1,45 +1,85 @@
 body{
-    background-color: rgb(192, 240, 240);
+    background-color:rgb(111, 183, 183);
+
 }
 
 .div1{
     text-align: center;
     font-size: 30px;
     color:rgb(4, 67, 53);
-    border: 2px solid seagreen;
     width: 500px;
-    height: 230px;
+    height: 750px;
     margin: auto;
     margin-top: 100px;
+    
+}
+
+.imagen_portada{
+    height: 500px;
+    width: 500px;
 }
 
 .indice{
     color: rgb(4, 67, 53);
-    border: 2px solid rgb(139, 46, 120);
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
 }
 
 .contenido_indice{
     font-size: 30px;
-    margin-top: auto;
-    border: 2px solid rgb(11, 239, 255);
+    
 }
 
 .descripcion_estilos{
-    margin-top: -248px;
-    margin-left: 680px;
-    border: 2px solid rgb(40, 49, 44);
+    color: rgb(4, 67, 53);
+    width: 500px;
+    height: 200px;
+    padding: 40px;
+    
 }
 
 .introduccion{
+    background-color:rgb(147, 205, 205);
     margin-top: 170px;
-    border: 2px solid rgb(201, 192, 22);
+    margin-left: 125px;
+    margin-right: 125px;
+    border-radius: 15px;
+    padding: 15px;
+    
 }
 
 .nudo{
-    border: 2px solid rgb(26, 217, 52);
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color:rgb(147, 205, 205);
+    border-radius: 15px;
+    padding: 15px;
+    width: 1603px;
+    height: 250px;
+}
+
+.imagen_nudo{
+    width: 200px;
+    height: 200px;
+    float: right; 
+    margin-left: 15px; 
+    margin-bottom: 15px; 
+    margin-right: 15px;
 }
 
 .desenlace{
-    border: 2px solid rgb(39, 9, 138);
+    margin-top: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color:rgb(147, 205, 205);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.portada{
+    display: flex;
+    align-items: center;
 }
 
