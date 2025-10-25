@@ -1,85 +1,172 @@
-body{
-    background-color:rgb(111, 183, 183);
-
+body {
+    background-color: rgb(111, 183, 183);
 }
 
-.div1{
+.orbitron-uniquifier {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+}
+  
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.div1 {
     text-align: center;
     font-size: 30px;
-    color:rgb(4, 67, 53);
+    color: rgb(4, 67, 53);
     width: 500px;
     height: 750px;
     margin: auto;
     margin-top: 100px;
-    
+    font-family: "Audiowide", sans-serif;
 }
 
-.imagen_portada{
+.imagen_portada {
+    border-radius: 9px;
     height: 500px;
     width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
 }
 
-.indice{
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 300px;
+    margin-top: -100px;
+}
+
+.indice {
     color: rgb(4, 67, 53);
     margin-left: 100px;
     width: 400px;
-    height: 200px;
+    height: 90px;
+    font-family: "Audiowide", sans-serif;
 }
 
-.contenido_indice{
+.contenido_indice {
     font-size: 30px;
-    
+    font-family: "Audiowide", sans-serif;
 }
 
-.descripcion_estilos{
+.descripcion_estilos {
     color: rgb(4, 67, 53);
     width: 500px;
-    height: 200px;
+    height: 90px;
     padding: 40px;
-    
+    font-family: "Audiowide", sans-serif;
 }
 
-.introduccion{
-    background-color:rgb(147, 205, 205);
-    margin-top: 170px;
-    margin-left: 125px;
-    margin-right: 125px;
+.introduccion {
+    background-color: rgb(147, 205, 205);
+    margin: 80px 125px;
+    margin-top: 20px;
     border-radius: 15px;
-    padding: 15px;
-    
+    padding: 40px 60px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    font-family: "Orbitron", sans-serif;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: rgb(4, 67, 53);
 }
 
-.nudo{
-    margin-top: 50px;
-    margin-left: 125px;
-    margin-right: 125px;
-    background-color:rgb(147, 205, 205);
-    border-radius: 15px;
-    padding: 15px;
-    width: 1603px;
-    height: 250px;
-}
-
-.imagen_nudo{
-    width: 200px;
-    height: 200px;
-    float: right; 
-    margin-left: 15px; 
-    margin-bottom: 15px; 
-    margin-right: 15px;
-}
-
-.desenlace{
-    margin-top: 50px;
-    margin-left: 125px;
-    margin-right: 125px;
-    background-color:rgb(147, 205, 205);
-    border-radius: 15px;
-    padding: 15px;
-}
-
-.portada{
+.contenido-introduccion {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
+.introduccion_comic {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+}
+
+.nudo {
+    background-color: rgb(147, 205, 205);
+    margin: 80px 125px;
+    border-radius: 15px;
+    padding: 40px 60px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    font-family: "Orbitron", sans-serif;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: rgb(4, 67, 53);
+}
+
+.contenido-nudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contenido-nudo p {
+    flex: 1;
+}
+
+.imagen_nudo {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+}
+
+.desenlace {
+    background-color: rgb(147, 205, 205);
+    margin: 80px 125px;
+    border-radius: 15px;
+    padding: 40px 60px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    font-family: "Orbitron", sans-serif;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: rgb(4, 67, 53);
+}
+
+.contenido-desenlace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.imagen_desenlace {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
