@@ -1,0 +1,40 @@
+body h1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.titulo_inicio{
+    text-align: center;}
+body h2 {
+    font-style: italic;
+    color: rgb(135, 132, 132);
+    text-align: center;
+}
+
+body p {
+    font-style: italic;
+    text-align: right;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.imagen-centrada{
+    display: block;    
+    margin: 0 auto;    
+    
+}
+
+figure{
+    text-align: center;}
+
+
