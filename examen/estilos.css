@@ -1,0 +1,71 @@
+.titulo{
+    font-size: 60px;
+    color: rgb(153, 30, 30);
+    text-align: center;
+}
+.todo{
+    border: 2px, solid rgb(175, 175, 175);
+    width: 1800px;
+    height: 750px;
+    margin: auto;
+    margin-bottom: 60px;
+    display: flex;
+    background-color: rgb(220, 217, 217);
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.menuNavegacion{
+    background-color: rgb(90, 14, 14);
+    border: 2 px solid rgb(90, 14, 14);
+    width: 260px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.tituloMenu{
+    color: rgb(224, 190, 21);
+    font-size: 23px;
+}
+
+.listaMenu{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 30px;
+    padding:20px;
+    border-top: 1px solid grey;
+    width: 173px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.articulo{
+    width: 1500px;
+    height: 660px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 10px;
+    background-color: rgb(240, 235, 235);
+    padding: 20px;
+    font-size: 38px;
+    padding-bottom: 20px;
+    
+}
+
+.tituloArticulo{
+    color: rgb(90, 14, 14)
+}

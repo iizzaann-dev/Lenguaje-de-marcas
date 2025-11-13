@@ -52,21 +52,19 @@ td:empty {
 .basedatos { background-color: #fce8b2; 
 }
 .sistemasinformaticos { background-color: #c9daf8;
- }
+}
 .edd { background-color: #f4cccc;
- }
+}
 .lenguajemarcas { background-color: #d9ead3;
- }
+}
 .digitalizacion { background-color: #fff2cc;
- }
+}
 .sostenibilidad { background-color: #d0e0e3;
 }
 .IPE { background-color: #ead1dc; 
 }
 .recreo { background-color: #666; color: #fff; font-weight: 700;
- }
-
-
+}
 .recreo {
   text-transform: uppercase;
   letter-spacing: 1px;

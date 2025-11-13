@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="John Lennon.jpg">
+
+    <style>
+        .imagenes img{
+            width: 250px;
+            height: 300px;
+
+        }
+ 
+
+    </style>
+</head>
+<body>
+    <h1 id="Inicio"> primer heading <a href="#Fin">haz click aquí para bajar al final</a></h1><!-- La etiqueta h1,2,3... sirve para los títutlos-->
+    <h2>Mi segundo heading</h2>
+    <p>La ultima batalla </p>
+    <p> 
+        <span style="color: violet;">La</span> <br>  <!-- La etiqueta p sirve para los parrafos de texto -->
+        <span style="color: chartreuse;">Primera</span><br> <!-- La etiqueta span sirve para separar los formatos del texto-->
+        <span style="color: aquamarine;"> Batalla </span><br><!-- La etiqueta br sirver para realizar un salto de linea -->
+    </p>
+    <a href="https://www.w3schools.com/html/default.asp">W3Schools aquí</a> <!-- a href sirve para redirigir a otro pagina a traves de un link
+     en este caso, también, en este caso esa página se cargara en la página actual-->
+     <br>
+
+     <a target="_blank" href="https://www.w3schools.com/html/default.asp">W3Schools en otra ventana</a><!-- a href sirve para redirigir a otro pagina a traves
+     de un link en este caso, también, en este caso esa página se cargara en otra página-->
+     <br>
+
+     <img src="John Lennon.jpg" width="250" height="300"/> <!-- La etiqueta img src sirve para añadir imagenes, width y heigth es para 
+     darle formato a la imagen-->
+     <br>
+
+     <ol>
+        <li>Camión</li>
+        <li>Croquetas</li><!-- La etiqueta ol genera una lista ordenada, la etiqueta li introduce el texto en la lista-->
+        <li>Champiñones</li>
+     </ol>
+     <br>
+
+     <ul>
+        <li>Cocretas</li><!-- La etiqueta ul genera una lista desordenada, la etiqueta li introduce el texto en la lista-->
+        <li>Salsa</li>
+     </ul>
+     <br>
+
+     <ol>
+        <li>Camión</li>
+        <li>Croquetas</li>
+        <li>Champiñones</li>
+        <li> <!-- Aqui genero una sub lista-->
+            <ol> <!-- Aqui genero una sub lista-->
+                <li style="list-style-type: lower-alpha;"> Patatas</li> <!-- Le doy estilo a la sublista para diferenciarla de la lista-->
+                <li style="list-style-type: lower-alpha;"> Patatas</li>
+                <li style="list-style-type: lower-alpha;"> Patatas</li> 
+            </ol>
+        </li>
+     </ol>
+     <br>
+
+
+     <!-- Etiqueta div, sirve para separar contenido -->
+
+     <div style="text-align: center;">
+
+        <p>Parrafo dentro de div</p>
+        <p>Parrafo 2 dentro del div</p>
+        <br>
+
+     </div>
+
+     <div style="text-align: left;">
+
+        <p>Parrafo dentro de otros div</p>
+        <p>Parrafo dentro de otro div</p>
+        <br>
+
+     </div>
+
+     <div class= "imagenes">
+
+        <p style="text-align: center;">
+            <img src="John Lennon.jpg">
+        </p>
+
+        <br>
+
+        <p style="text-align: left; margin-top: 30%;">
+            <img src="John Lennon.jpg" style="float: left;"> <!-- Para que el texto quede al lado de la imagen añado el stilo de la 
+            imagen floa y el lado al que estará pegada la imagen-->
+            TEXTOLARGOTEXTOL ARGOTEXTO LARGOTEXTOLARG OTEXT OLARGOTEXTOL ARGOTEXTOLARG  OTEXTOLARGOTEXTOLARGOTE XTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLAR GOTEXTOLA RGOTEXTOLARGOTEXTOLARGOTEXTOL ARGOTEXTOLARGOTEXTOLARGOTE XTOLARGOTEX TOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTE XTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTO LARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARGOTEXTO LARGOTEXTOLARGO TEXTOLARGOTEXTOLARGOTEXTOLARGOT EXTOLARGOTEXTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLA RGOTEXTOLAR GOTEXTOLARGOT EXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARG OTEXTOLARGOTEXTOLARGO TEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOT EXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLA RGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARG OTEXTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTEXT OLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+        </p>
+
+        <br>
+
+
+        <p style="text-align: right; margin-top: 30%;">
+            <img src="John Lennon.jpg" style="float: right;"> <!-- Para que el texto quede al lado de la imagen añado el stilo de la 
+            imagen floa y el lado al que estará pegada la imagen-->
+            TEXTOLARGOTEXTOL ARGOTEXTO LARGOTEXTOLARG OTEXT OLARGOTEXTOL ARGOTEXTOLARG  OTEXTOLARGOTEXTOLARGOTE XTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLAR GOTEXTOLA RGOTEXTOLARGOTEXTOLARGOTEXTOL ARGOTEXTOLARGOTEXTOLARGOTE XTOLARGOTEX TOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTE XTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTO LARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARGOTEXTO LARGOTEXTOLARGO TEXTOLARGOTEXTOLARGOTEXTOLARGOT EXTOLARGOTEXTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLA RGOTEXTOLAR GOTEXTOLARGOT EXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARG OTEXTOLARGOTEXTOLARGO TEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOT EXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLA RGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+            TEXTOLARG OTEXTOLARGOTEXTOLARG OTEXTOLARGOTEXTOLARGOTEXT OLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGOTEXTOLARGO
+        </p>
+
+        <br>
+
+     </div>
+     
+     <p id="Fin" style="margin-top: 30%; text-align: center;"> <a href="#Inicio"> click aquí para volver arriba </a> </p> <!-- Hipervinculo para subir arriba del todo-->
+     <!-- Id para identificar el parrafo, el Id no puede estar duplicado, para eso usaria clases (<p class = " ">)-->
+     
+        <br>
+        <p style="font-style: italic;"> Los procesos jurisdictivos</p>
+
+
+
+    <!--Esta etiqueta sirve para realizar comentarios -->
+</body>
+</html>
