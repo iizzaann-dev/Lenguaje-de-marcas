@@ -5,32 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+
 <body>
     <h1 class = "titulo">Formulario de admision</h1>
 
+    <h2>Bienvenido al formulario de Marcianos S.A, será necesario que lo rellenes <br>
+        para facilitar la visita y toda la administración que la engloba</h2>
+    <form action="mensajeRecivido.html" method="post">
 
-    <!-- Nombre del solicitante, fecha, numero de personas del grupo, 
-    horario preferido ( mañana, mediodia, tarde), 
-    fecha prevista, necesita guía (S/N) y correo electronico de la persona de contacto.-->
-
-
-    <form action="mensajeRecivido.html">
-
-        <div class = "datosPersonales">
+        <fieldset>
+            <legend>Datos personales</legend>
             <label for="name">Nombre:</label><br>
             <input type="text" id="name" name = "Nombre"><br>
 
             <br>
 
-            <label for="email">Correo:</label><br>
-            <input type="email" name="Correo" id="email"><br>
-        </div>
+            <label for="email">Correo: *</label><br>
+            <input type="email" name="Correo" id="email" placeholder="usuario@ejemplo.com" required><br>
+        </fieldset>
 
         <br>
 
-        <label for="fecha">Fecha</label><br>
-        <input type="date" name="Fecha" id="fecha"><br>
+        <fieldset>
+            <legend>Otros datos interesantes</legend>
+            <label for="fecha">Fecha de la solicitud</label><br>
+            <input type="date" name="Fecha" id="fecha"><br>
 
+            <br>
+
+            <label for="integrantesDelGrupo">Integrantes del grupo</label><br>
+            <input type="number" name="Integrantes" id="integrantesDelGrupo"><br>
+
+            <br>
+
+            <label for="horario">Horario Preferido</label><br>
+            <select name="horario" id="horario">
+                <option value="mañana">Mañana</option>
+                <option value="mediodia">Mediodia</option>
+                <option value="tarde">Tarde</option>
+            </select><br>
+
+            <br>
+
+            <label for="guia">¿Es necesario un guía?</label><br>
+            <input type="radio" name="guardar" value="si"> Sí<br>
+            <input type="radio" name="guardar" value="no"> No<br>
+
+            <br>
+
+            <label for="asistencia">¿Qué hará el grupo en la visita?</label><br>
+            <input type="checkbox">Reunión con el CEO de la empresa<br>
+            <input type="checkbox">Visita al jardín botánico privado<br>
+            <input type="checkbox">Transporte de llegada<br>
+
+            <br>
+
+            <label for="hora">Hora: </label>
+            <input type="range" id="hora" name="hora" min="9" max="18" step="1" value="9"> <br>
+            <span id="valorHora">09:00</span> <br>
+
+            <input type="hidden" name="usuario_id" value="12345"> <br>
+
+            
+
+        </fieldset>
+
+        <input type="submit" value="Enviar Formulario">
+        <input type="reset" value="Reiniciar">
+
+        
+        
     </form>
 </body>
 </html>
