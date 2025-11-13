@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(222, 224, 226);
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(136, 115, 91);color: rgb(136, 115, 91);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(136, 115, 91);
+
+}
+
+form{
+    text-align: center;
+    background-color: rgb(203, 219, 234);
+    border-radius: 30px;
+}
+
+.datosPersonales{
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.otrosDatos{
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

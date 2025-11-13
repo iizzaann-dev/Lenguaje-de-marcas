@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-</head>
 
-<style>
-    body{
-        text-align: center;
-    }
-</style>
+    <link rel="stylesheet" href="estilos.css">
+</head>
 
 <body>
     <h1 class = "titulo">Formulario de admision</h1>
 
     <h2>Bienvenido al formulario de Marcianos S.A, será necesario que lo rellenes <br>
         para facilitar la visita y toda la administración que la engloba</h2>
-    <form action="mensajeRecivido.html" method="post">
+    <form action="mensajeRecibido.html" method="get">
 
-        <fieldset>
+        <fieldset class = "datosPersonales">
             <legend>Datos personales</legend>
             <label for="name">Nombre:</label><br>
-            <input type="text" id="name" name = "Nombre"><br>
+            <input type="text" id="name" name = "Nombre" required><br>
 
             <br>
 
@@ -32,7 +28,7 @@
 
         <br>
 
-        <fieldset>
+        <fieldset class = "otrosDatos">
             <legend>Otros datos interesantes</legend>
             <label for="fecha">Fecha de la solicitud</label><br>
             <input type="date" name="Fecha" id="fecha"><br>
@@ -40,7 +36,7 @@
             <br>
 
             <label for="integrantesDelGrupo">Integrantes del grupo</label><br>
-            <input type="number" name="Integrantes" id="integrantesDelGrupo"><br>
+            <input type="number" name="Integrantes" id="integrantesDelGrupo" min="1" max="16" placeholder="4"><br>
 
             <br>
 
@@ -57,12 +53,14 @@
             <input type="radio" name="guardar" value="si"> Sí<br>
             <input type="radio" name="guardar" value="no"> No<br>
 
+
             <br>
 
             <label for="asistencia">¿Qué hará el grupo en la visita?</label><br>
-            <input type="checkbox">Reunión con el CEO de la empresa<br>
-            <input type="checkbox">Visita al jardín botánico privado<br>
-            <input type="checkbox">Transporte de llegada<br>
+            <input type="checkbox" name="actividad" value="ceo"> Reunión con el CEO de la empresa<br>
+            <input type="checkbox" name="actividad" value="jardin"> Visita al jardín botánico privado<br>
+            <input type="checkbox" name="actividad" value="transporte"> Transporte de llegada<br>
+
 
             <br>
 
