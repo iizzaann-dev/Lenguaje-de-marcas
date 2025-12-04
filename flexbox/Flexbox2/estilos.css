@@ -1,0 +1,59 @@
+.caja{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 99%;
+}
+
+h1{
+    margin-left: 45%;
+}
+
+.caja div{
+    width: 33.33%;
+    height: 70px;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 40px;
+}
+
+.item1{
+    background-color: aqua;
+}
+
+.item2{
+    background-color: rgb(255, 0, 221);
+}
+
+.item3{
+    background-color: rgb(255, 0, 43);
+}
+
+.item4{
+    background-color: rgb(255, 251, 0);
+}
+
+.item5{
+    background-color: rgb(4, 0, 255);
+}
+
+.item6{
+    background-color: rgb(79, 5, 88);
+}
+
+.item7{
+    background-color: rgb(75, 194, 28);
+}
+
+.item8{
+    background-color: rgb(64, 82, 82);
+}
+
+.item9{
+    background-color: rgb(148, 55, 27);
+}
+
+.item10{
+    background-color: rgb(9, 255, 0);
+}
