@@ -1,7 +1,9 @@
 .caja{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 2px solid black;
+    width: 99%;
 }
 
 h1{
@@ -9,9 +11,10 @@ h1{
 }
 
 .caja div{
-    width: 40px;
-    height: 700px;
+    width: 33.33%;
+    height: 70px;
     text-align: center;
+    padding-top: 1%;
     font-size: 40px;
 }
 
