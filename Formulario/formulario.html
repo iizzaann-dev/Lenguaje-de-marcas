@@ -17,7 +17,7 @@
 
         <fieldset class = "datosPersonales">
             <legend>Datos personales</legend>
-            <label for="name">Nombre:</label><br>
+            <label for="name">Nombre: *</label><br>
             <input type="text" id="name" name = "Nombre" required><br>
 
             <br>
@@ -66,19 +66,17 @@
 
             <label for="hora">Hora: </label>
             <input type="range" id="hora" name="hora" min="9" max="18" step="1" value="9"> <br>
-            <span id="valorHora">09:00</span> <br>
 
             <input type="hidden" name="usuario_id" value="12345"> <br>
 
-            
+            <label for="archivo">Selecciona un archivo:</label><br>
+            <input type="file" id="archivo" name="archivo"><br>
 
         </fieldset>
 
-        <input type="submit" value="Enviar Formulario">
-        <input type="reset" value="Reiniciar">
+        <input class = "boton_enviar" type="submit" value="Enviar Formulario">
+        <input class = "boton_reiniciar" type="reset" value="Reiniciar">
 
-        
-        
     </form>
 </body>
 </html>
