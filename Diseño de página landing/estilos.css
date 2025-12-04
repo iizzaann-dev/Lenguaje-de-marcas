@@ -2,12 +2,14 @@ header{
     padding: 0.5%;
     z-index: 20;
     position: fixed;
+    top: 0;
     background-color: rgb(136, 137, 137);
     height: 80px;
     width: 96%;
     border-radius: 20px;
     margin-left: 1%;
     margin-right: 2%;
+    margin-top: 1%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
@@ -59,10 +61,115 @@ a:hover {
     color: rgb(44, 44, 55); 
 }
 a:active {
-    color: rgb(129, 182, 163); 
+    color: rgb(6, 47, 122); 
 }
 
 body{
     background-color: rgb(192, 195, 197);
+    padding-top: 100px;
 }
 
+.hero{
+    position: relative;
+    margin-top: 50px;
+    width: 85%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    padding: 2%;
+    border-radius: 60px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    background-color: rgb(166, 169, 171);
+}
+
+.articulo{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 18%;
+    left: 18%;
+}
+
+.articulo h3{
+    font-size: 40px;
+}
+.primero, .segundo {
+    float: left;
+    width: 25.66%;     
+    padding: 20px;           
+    height: 400px;      
+}
+
+.primero {
+    margin-left: 5%;
+    border-radius: 60px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    background-color: rgb(210, 214, 216);
+    text-align: center;
+}
+
+.segundo, .tercero {
+    margin-left: 3%;
+    border-radius: 60px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    background-color: rgb(210, 214, 216);
+}
+
+.segundo{
+    text-align: center;
+}
+
+.tercero{
+    float: left;
+    width: 25.05%;     
+    padding: 20px;       
+    height: 400px; 
+    text-align: center;
+}
+
+.primero, .segundo, .tercero p{
+    margin-bottom: 4%; 
+    font-size: 20px;
+}
+
+.cta-btn {
+    background: #ff5722;
+    color: white;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    float: center;  
+}
+
+footer{
+    width: 96%;
+    height: 40px;
+    margin-left: 1%;
+    margin-right: 2%;   
+    margin-top: 0;
+    padding: 0.5%;
+    text-align: center;                                 
+    background-color: rgb(136, 137, 137);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    color: rgb(63, 63, 65);
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    clear: both ;
+}
+
+.nombre, .curso, .asignatura, .fecha{
+    float: left;
+    margin-left: 2%;
+    height: 40px;
+    width: 22%;
+    text-align: center;
+}
+
+.nombre, .curso, .asignatura, .fecha p{
+    margin: 0; 
+}

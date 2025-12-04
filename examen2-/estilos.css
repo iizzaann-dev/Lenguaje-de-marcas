@@ -1,0 +1,91 @@
+header{
+    margin: 0; 
+    width: 101%;
+    background-color: rgb(14, 33, 75);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    position: fixed;
+    margin-top: -2.3%;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(235, 236, 236); 
+}
+
+.inicio{
+    float: left;
+    margin-left: 5%;
+    font-size: 17px;
+    margin-top: 0.5%;
+}
+
+.servicios{
+    float: left; 
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    margin-top: 0.5%;
+}
+
+.contacto{
+    font-size: 17px;
+    margin-top: 0.5%;
+}
+
+a {
+    color: rgb(225, 225, 230);
+    text-decoration: none; 
+}
+a:hover {
+    color: rgb(186, 186, 190); 
+}
+
+section{
+    margin: 2%;
+}
+
+article{
+    border: 2px solid black;
+    width: 100%;
+    height: 1200px;
+    margin-top: 10%;
+
+}
+
+.texto{
+    float:center;
+    text-align: left;
+    width: 35%;
+    margin-left: 35%;
+    margin-right: ;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.texto1{
+    
+}
+
+.texto2{
+    float: center; 
+    text-align: left;
+    margin-top: 20%;
+}
+
+.boton{
+    background-color: rgb(25, 235, 70);
+    color: rgb(225, 225, 230);
+    text-decoration: none;
+    width: 6%;
+    text-align: center;
+    padding-bottom: 0.3%;
+    padding-top: 0.3%;
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+    border-radius: 20px;
+    float: right;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
