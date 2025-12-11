@@ -1,0 +1,76 @@
+.caja{
+    display: flex;
+    border: 2px solid black;
+    width: 99%;
+    height: 800px;
+}
+
+h1{
+    margin-left: 45%;
+}
+
+.caja div{
+    width: 33.33%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.item1,.item2, .item3,.item4,.item5, .item6, .item7,.item8, .item9, .item10{
+    flex: 1;
+}
+
+.item1, .item3,.item4,.item5, .item6,.item7,.item8, .item9, .item10{
+    height: 50px;
+}
+
+.item1{
+    background-color: aqua;
+    
+}
+
+.item2{
+    background-color: rgb(255, 0, 221);
+    align-self: stretch;
+}
+
+.item3{
+    background-color: rgb(255, 0, 43);
+
+}
+
+.item4{
+    background-color: rgb(255, 251, 0);
+    
+}
+
+.item5{
+    background-color: rgb(4, 0, 255);
+    
+}
+
+.item6{
+    background-color: rgb(79, 5, 88);
+    align-self: center;
+}
+
+.item7{
+    background-color: rgb(75, 194, 28);
+    
+}
+
+.item8{
+    background-color: rgb(64, 82, 82);
+    
+}
+
+.item9{
+    background-color: rgb(148, 55, 27);
+    align-self: flex-end;
+}
+
+.item10{
+    background-color: rgb(9, 255, 0);
+    
+}
