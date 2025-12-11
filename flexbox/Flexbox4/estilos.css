@@ -1,7 +1,8 @@
 .caja{
     display: flex;
-    justify-content: left;
+    
     border: 2px solid black;
+    width: 99%;
 }
 
 h1{
@@ -9,48 +10,63 @@ h1{
 }
 
 .caja div{
-    width: 40px;
-    height: 700px;
+    width: 33.33%;
+    height: 70px;
     text-align: center;
+    padding-top: 1%;
     font-size: 40px;
+    color: rgb(255, 255, 255);
 }
 
+.item1,.item2, .item3,.item4,.item5, .item6, .item7,.item8, .item9, .item10{
+    flex: 1;
+}
 .item1{
     background-color: aqua;
+    order: 2;
 }
 
 .item2{
     background-color: rgb(255, 0, 221);
+    order: 3;
 }
 
 .item3{
     background-color: rgb(255, 0, 43);
+    order: 4;
 }
 
 .item4{
     background-color: rgb(255, 251, 0);
+    order: 5;
 }
 
 .item5{
     background-color: rgb(4, 0, 255);
+    order: 1;
 }
 
 .item6{
     background-color: rgb(79, 5, 88);
+    order: 10;
 }
 
 .item7{
     background-color: rgb(75, 194, 28);
+    order: 6;
 }
 
 .item8{
     background-color: rgb(64, 82, 82);
+    order: 7;
 }
 
 .item9{
     background-color: rgb(148, 55, 27);
+    order: 8;
 }
 
 .item10{
     background-color: rgb(9, 255, 0);
+    order: 9;
 }
