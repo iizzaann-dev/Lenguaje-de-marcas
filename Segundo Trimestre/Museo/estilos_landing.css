@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, rgb(129, 178, 220), rgb(69, 95, 147));
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh; 
+}
+
+
+.footer { 
+    grid-area: 5 / 1 / 6 / 5; 
+}
+
+.Contenido { 
+    grid-area: 1 / 1 / 5 / 5; 
+}
+
+.marca_bien {
+    grid-area: 2 / 2 / 4 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(14px) saturate(170%);
+    -webkit-backdrop-filter: blur(14px) saturate(170%);
+    position: relative;
+    overflow: hidden;
+}
+
+.marca_bien::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    padding: 3px;
+
+    background: radial-gradient(
+        120% 120% at 10% 10%,
+        rgba(255,255,255,0.9),
+        rgba(255,255,255,0.25),
+        rgba(255,255,255,0.6)
+    );
+
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+
+    pointer-events: none;
+}
+
+.titulo{
+    font-size: 7vh;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to top, rgb(129, 178, 220), rgb(69, 95, 147));
+    background-image: url("assets/portatil.jpg"); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.apple-button {
+    position: relative;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: white;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(10px) saturate(170%);
+    -webkit-backdrop-filter: blur(10px) saturate(170%);
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.25s ease, background 0.3s ease;
+    margin-top: 2vh;
+}
+
+
+.apple-button::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: inherit;
+    padding: 4px;
+    background:
+    radial-gradient(
+    120% 120% at 10% 10%,
+    rgba(255,255,255,0.9),
+    rgba(255,255,255,0.25),
+    rgba(255,255,255,0.6)
+    );
+    filter: blur(0.4px);
+    -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+
+.apple-button::after {
+    content: "";
+    position: absolute;
+    inset: -10px;
+    border-radius: inherit;
+    backdrop-filter: blur(24px) saturate(200%) contrast(110%);
+    -webkit-backdrop-filter: blur(24px) saturate(200%) contrast(110%);
+    z-index: -1;
+}
+
+
+.apple-button span {
+    position: relative;
+    z-index: 1;
+}
+
+
+.apple-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.04);
+}
+
+.apple-button:active {
+    transform: scale(0.97);
+}

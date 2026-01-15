@@ -1,0 +1,54 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "navegacion navegacion navegacion navegacion navegacion navegacion"
+    "Indice foto1 foto1 foto2 foto2 Curiosidades"
+    "Indice foto1 foto1 foto2 foto2 Curiosidades"
+    "Indice foto3 foto3 foto4 foto4 Curiosidades"
+    "Indice foto3 foto3 foto4 foto4 Curiosidades"
+    "footer footer footer footer footer footer";
+    height: 100vh;
+}
+
+.navegacion { grid-area: navegacion;
+    border: solid black 2px;
+}
+
+.foto1 { 
+    grid-area: foto1;
+    border: solid rgb(212, 0, 0) 2px; 
+}
+
+.foto2 { 
+    grid-area: foto2;
+    border: solid rgb(0, 7, 131) 2px; 
+}
+
+.foto3 { 
+    grid-area: foto3;
+    border: solid rgb(220, 11, 150) 2px; 
+}
+
+.foto4 { 
+    grid-area: foto4;
+    border: solid rgb(26, 216, 222) 2px; 
+}
+
+.footer { 
+    grid-area: footer; 
+    border: solid rgb(114, 30, 4) 2px;
+}
+
+.Indice { 
+    grid-area: Indice; 
+    border: solid rgb(228, 190, 190) 2px;
+}
+
+.Curiosidades { 
+    grid-area: Curiosidades; 
+    border: solid rgb(187, 135, 215) 2px;
+}
