@@ -1,0 +1,125 @@
+.container {  display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr ;
+    grid-template-rows:  1fr 1fr 1fr 1fr ;
+
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "navegacion navegacion navegacion navegacion"
+    "foto1 foto1 foto2 foto2 "
+    "foto1 foto1 foto2 foto2 "
+
+
+    "footer footer footer footer";
+    height: 100vh;
+}
+
+.header { grid-area: navegacion;
+    border: solid black 2px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.entrada1{
+    grid-area: foto1;
+    width: 120%;
+    border: solid yellow 2px;
+    margin-top: -70px;
+    flex-direction: column;
+    margin-bottom: 40%;
+}
+
+.blog1 { 
+    display: flex;
+    border: solid rgb(212, 0, 0) 2px; 
+}
+
+.imagen_rio{
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 4%;
+    flex-direction: row-reverse;
+}
+
+.contenido_rio{
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right:2% ;
+    font-size: 40px;
+    flex-direction: row-reverse;
+}
+
+.blog2{
+    display: flex;
+    border: solid rgb(212, 0, 0) 2px; 
+}
+
+.contenido_desierto{
+    font-size: 40px;
+}
+
+.entrada2 { 
+    grid-area: foto2;
+    border: solid rgb(0, 7, 131) 2px; 
+    width: 74%;
+    margin-left: 25%;
+    margin-top: -70px;
+
+}
+
+body{
+    background-color: rgb(201, 201, 180);
+}
+
+.footer { 
+    grid-area: footer; 
+    border: solid rgb(114, 30, 4) 2px;
+    height: 120px;
+    margin-bottom: 0,1vh;
+    margin-top: 40%;
+}
+
+.titulo {
+    margin-left: 5%;
+    flex-direction: row-reverse;
+}
+
+.pagina_principal{
+    margin-left: 30%;
+    flex-direction: row-reverse;
+}
+
+.hobbies{
+    margin-left: 5%;
+
+}
+
+.aprende_conmigo{
+    margin-left: 5%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.instagram, .tiktok{
+    flex-direction: row-reverse;
+    margin-left: 20%;
+}
+
+.youtube{
+        flex-direction: row-reverse;
+        margin-left: 25%;
+}
+
+.footer a:hover {
+    color: #f1c40f;
+}
+
+.header a:hover {
+    color: #f1c40f;
+}

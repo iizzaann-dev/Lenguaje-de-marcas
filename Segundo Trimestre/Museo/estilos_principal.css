@@ -1,54 +1,65 @@
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 10px 10px;
-    grid-auto-flow: row;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas:
-    "navegacion navegacion navegacion navegacion navegacion navegacion"
-    "Indice foto1 foto1 foto2 foto2 Curiosidades"
-    "Indice foto1 foto1 foto2 foto2 Curiosidades"
-    "Indice foto3 foto3 foto4 foto4 Curiosidades"
-    "Indice foto3 foto3 foto4 foto4 Curiosidades"
-    "footer footer footer footer footer footer";
-    height: 100vh;
+        "header"
+        "main"
+        "footer";
 }
 
-.navegacion { grid-area: navegacion;
-    border: solid black 2px;
+
+.header {
+    grid-area: header;
+    background-color: #8559d6;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.foto1 { 
-    grid-area: foto1;
-    border: solid rgb(212, 0, 0) 2px; 
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
 }
 
-.foto2 { 
-    grid-area: foto2;
-    border: solid rgb(0, 7, 131) 2px; 
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.foto3 { 
-    grid-area: foto3;
-    border: solid rgb(220, 11, 150) 2px; 
+.main {
+    grid-area: main;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
 }
 
-.foto4 { 
-    grid-area: foto4;
-    border: solid rgb(26, 216, 222) 2px; 
+.contenido,
+.lateral {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.footer { 
-    grid-area: footer; 
-    border: solid rgb(114, 30, 4) 2px;
-}
-
-.Indice { 
-    grid-area: Indice; 
-    border: solid rgb(228, 190, 190) 2px;
-}
-
-.Curiosidades { 
-    grid-area: Curiosidades; 
-    border: solid rgb(187, 135, 215) 2px;
+.footer {
+    grid-area: footer;
+    background-color: #8559d6;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
