@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="JavaScript.js"></script>
+
+</head>
+<body>
+    <h1>Buenas, vamos a interactuar con un formulario y JavaScript</h1>
+
+    <form class ="formulario">
+    <h2>Vamos a valirdar un número que esté entre 1 y 500</h2>
+
+    <input type="number" id = "codigo" placeholder="Ingresa un número entre el 1 y el 500">
+    <p id = "mensaje_codigo"></p>
+    <br>
+    <h2>Vamos a validar un nombre compuesto</h2>
+    <input type="text" id = "nombre" placeholder="Ingresa un nombre compuesto de 6 letras y con un espacio">
+    <p id = "mensaje_nombre"></p>
+    <br>
+    <h2>Vamos a validar un numero de telefono de 9 dígitos</h2>
+    <input type="number" id="telefono" placeholder="Ingesa un teléfono de 9 dígitos">
+    <p id = "mensaje_telefono"></p>
+    <br>
+    <h2>Vamos a validar un correo electrónico</h2>
+    <input type="text" id="email" placeholder="Ingresa un correo electrónico">
+    <p id = "mensaje_email"></p>
+    <br>
+    <h2>Vamos a validar un DNI</h2>
+    <input type="text" id="dni" placeholder="12345678A">
+    <p id="mensaje_dni"></p>
+    <br>
+<button type="button" onclick="validarTodo()">Validar Todo</button>
+<button type="reset" onclick="borrarTodo()">Borrar Todo</button>
+
+
+    </form>
+
+    
+</body>
+</html>
+
+
+
