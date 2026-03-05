@@ -1,4 +1,4 @@
-function validarNumero() {
+    function validarNumero() {
     const numero = document.getElementById("codigo");
     const mensaje_codigo = document.getElementById("mensaje_codigo");
     const valor = parseInt(numero.value);

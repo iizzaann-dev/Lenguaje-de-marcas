@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumo energético</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class = "titulo">Calcular el consumo energético</h1>
+
+    <p class = "nombre">Nombre del dispositivo</p>
+    <input type="text" id= "nombre_dispositivo" placeholder="Nombre del dispositivo">
+    <br>
+
+    <p class = "Vatios">Vatios (W): </p>
+    <input type="number" id = "vatios" placeholder="Vatios">
+    <br>
+
+    <p class = "Horas_Diarias">Horas diarias (h): </p>
+    <input type="number" id = "horas" placeholder="Horas diarias">
+    <br>
+
+    <p class="dias">Días (d): </p>
+    <input type="number" id="dias" placeholder="Días">
+    <br>
+
+    <p class = "precio">Precio kWh: </p>
+    <input type="number" id="precio_kWh" placeholder="Precio kWh">
+    <br>
+
+    <h2 id = "total">Total: </h2>
+
+
+    <p>
+    <span id="palabra">Ayuda</span>
+    </p>
+
+    <div id="pasarRaton" style="display:none; position:absolute;">
+        <p>
+            Este programa funciona automáticamente, calculando el consumo energético
+        </p>
+    </div>
+
+    <script src = "JavaScript.js"></script>
+
+</body>
+</html>
+
